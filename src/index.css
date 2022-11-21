@@ -8,7 +8,7 @@ body {
 }
 
 * {
-  font-family: 'VT323', monospace;
+  font-family: 'VT323', monospace !important;
 }
 
 code {
