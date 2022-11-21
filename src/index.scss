@@ -1,0 +1,39 @@
+@import './assets/scss/variaveis.scss';
+
+@font-face {
+    font-family: PriceDown;
+    src: url(./assets/fonts/pricedown.otf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $color-4-600;
+    min-height: 100vh;
+
+    &::-webkit-scrollbar {
+        width: 6px;                /* roundness of the scroll thumb */
+    }
+    
+    &::-webkit-scrollbar-track {
+        background: $white;        /* color of the tracking area */
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        background-color: $color-1;    /* color of the scroll thumb */
+        border-radius: 0px;       /* roundness of the scroll thumb */
+        // border: 3px solid orange;  /* creates padding around scroll thumb */
+    }
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}

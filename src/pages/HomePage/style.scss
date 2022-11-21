@@ -1,0 +1,13 @@
+@import '/src/assets/scss/variaveis.scss';
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    padding: 50px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}

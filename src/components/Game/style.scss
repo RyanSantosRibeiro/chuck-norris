@@ -1,0 +1,77 @@
+@import '/src/assets/scss/variaveis.scss';
+
+.game {
+    padding: 10px 0px;
+    width: 100%;
+    height: auto;
+    max-width: 65%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__image {
+        width: 100%;
+        height: 80px;
+        overflow: hidden;
+        align-items: flex-start;
+        justify-content: center;
+        display: flex;
+        border-bottom: 2px solid $color-2;
+
+        @include phone {
+            height: 60px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__message {
+        height: 60px;
+        p {
+            color: $color-2;
+            font-size: 1.5rem;
+            opacity: 0;
+        }
+    }
+
+    &__over {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba($color: $color-2, $alpha: .8);
+        z-index: 20;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        
+        p {
+            animation-name: game-over;
+            animation-duration: 6s;
+            animation-fill-mode: forwards;
+
+            filter: blur(10px);
+            font-size: 10rem;
+            font-family: PriceDown;
+            color: $color-4;
+        }
+    }
+}
+
+.game-over {
+    overflow: hidden;
+
+    .container {
+        animation-name: game-over-container;
+        animation-duration: 6s;
+        animation-fill-mode: forwards;
+        filter: blur(0px);
+    }
+}
