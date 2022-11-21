@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9d4539a4.css",
+    "main.js": "/static/js/main.21fb8d3c.js",
+    "static/media/pricedown.otf": "/static/media/pricedown.6bea83af9fab92ca7c40.otf",
+    "static/media/chucknorris.png": "/static/media/chucknorris.0171796635bfac183d73.png",
+    "index.html": "/index.html",
+    "main.9d4539a4.css.map": "/static/css/main.9d4539a4.css.map",
+    "main.21fb8d3c.js.map": "/static/js/main.21fb8d3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d4539a4.css",
+    "static/js/main.21fb8d3c.js"
+  ]
+}
