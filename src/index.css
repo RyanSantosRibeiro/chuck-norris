@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  font-family: 'VT323', monospace;
+  font-family: 'VT323', monospace !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
